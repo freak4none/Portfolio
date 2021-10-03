@@ -671,10 +671,46 @@ footer span a:hover{
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
+        margin-bottom: 0px;
     }
     .about .about-content .right{
         flex: 100%;
     }
+    .about .about-content .right .download{
+        display: inline-block;
+        background: crimson;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px 30px;
+        /* */
+        margin-top: 60px;
+        border-radius: 40px;
+        border: 2px solid crimson;
+        transition: all 0.3s ease;
+    }
+    .about .about-content .right .hire{
+        display: inline-block;
+        background: none;
+        color: crimson;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: -7px; 
+        padding: 10px 30px;
+        margin-top: 15px;
+        margin-left: 4px;
+        border-radius: 40px;
+        border: 2px solid crimson;
+        transition: all 0.3s ease;
+    }
+    /* .about .about-content .left img{
+        height: 620px;
+        width: 400px;
+        object-fit: cover;
+        border-radius: 6px;
+        margin-bottom: 90px;
+    
+    } */
     .services .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
